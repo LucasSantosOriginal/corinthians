@@ -4,27 +4,27 @@ const Musics = () => {
   const [player, setPlayer] = useState<any>(null);
 
   useEffect(() => {
-    // Carrega a API do YouTube
     const tag = document.createElement("script");
     tag.src = "https://www.youtube.com/iframe_api";
     document.body.appendChild(tag);
 
-    // Função global para inicializar o player
     (window as any).onYouTubeIframeAPIReady = () => {
-      const newPlayer = new (window as any).YT.Player("youtube-player", {
-        videoId: "yJG5RLAZJPY",
-        playerVars: {
-          controls: 1,
-          showinfo: 0,
-          modestbranding: 1,
-          rel: 0,
-        },
-        events: {
-          onReady: (event: any) => {
-            setPlayer(event.target);
+      setPlayer(
+        new (window as any).YT.Player("youtube-player", {
+          videoId: "yJG5RLAZJPY",
+          playerVars: {
+            controls: 1,
+            showinfo: 0,
+            modestbranding: 1,
+            rel: 0,
           },
-        },
-      });
+          events: {
+            onReady: (event: any) => {
+              setPlayer(event.target);
+            },
+          },
+        })
+      );
     };
   }, []);
 
