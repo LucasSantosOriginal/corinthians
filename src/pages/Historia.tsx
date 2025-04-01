@@ -26,7 +26,10 @@ const Historia = () => {
         represents the fight, the struggle, and the never-ending passion of its
         fans.
       </p>
-      <img src="/assets/image1.jpg" alt="Corinthians" />
+      <img
+        src={`${process.env.PUBLIC_URL}/assets/image1.jpg`}
+        alt="Corinthians"
+      />
     </div>
   );
 };
