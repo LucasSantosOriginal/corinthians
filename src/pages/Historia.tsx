@@ -27,7 +27,7 @@ const Historia = () => {
         fans.
       </p>
       {/* Solução para carregar a imagem corretamente */}
-      <img src="/assets/image1.jpg" alt="Corinthians" />
+      <img src="assets/image1.jpg" alt="Corinthians" />
     </div>
   );
 };
