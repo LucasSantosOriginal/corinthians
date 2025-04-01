@@ -1,0 +1,120 @@
+/* body */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+  overflow: hidden;  /* Desabilitar o scroll no App.css */
+}
+
+p {
+  color: white;
+}
+
+/* main */
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* Isso vai evitar que a página inteira role */
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.titulo h1 {
+  font-size: 4rem;
+}
+
+.titulo p {
+  font-size: 1.5rem;
+  color: wheat;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed; /* Torna a navbar fixa no topo */
+  top: 0;
+  width: 100%;
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+/* historiaPAGE */
+/* historiaPAGE */
+.historia {
+  margin: 5%;
+  overflow-y: auto; /* Ativa o scroll vertical */
+  text-align: center; /* Centraliza o texto e a imagem */
+}
+
+.historia h1 {
+  color: white;
+  padding: 30px;
+}
+
+.historia p {
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+/* A imagem será centralizada automaticamente devido ao text-align: center na div */
+.historia img {
+  width: 500px;
+  padding: 30px;
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  display: block; /* A imagem se torna um bloco para funcionar com margin: auto */
+}
