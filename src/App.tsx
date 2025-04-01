@@ -3,12 +3,15 @@ import Historia from "./pages/Historia";
 import "./App.css";
 import videoBg from "./assets/video.mp4";
 
+// Verifica se estamos no ambiente de produção ou não
+const baseUrl = process.env.NODE_ENV === "production" ? "/corinthians/" : "/";
+
 function Navbar() {
   return (
     <nav className="navbar">
       <ul>
         <li>
-          <Link to="/App.tsx">Início</Link>
+          <Link to="/">Início</Link>
         </li>
         <li>
           <Link to="/Historia">Historia</Link>
@@ -20,7 +23,7 @@ function Navbar() {
 
 function App() {
   return (
-    <Router>
+    <Router basename={baseUrl}>
       <Navbar />
       <Routes>
         <Route
