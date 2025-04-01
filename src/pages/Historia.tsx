@@ -1,6 +1,6 @@
 const Historia = () => {
   return (
-    <div className="historia">
+    <div className="Container">
       <h1>A Team of the People, Built to Challenge the Elite</h1>
       <p>
         On September 1, 1910, five working-class men from Bom Retiro, a

@@ -8,7 +8,13 @@ html, body {
 }
 
 p {
+  font-size: 13px;
   color: white;
+}
+
+h1 {
+    color: white;
+
 }
 
 /* main */
@@ -39,16 +45,29 @@ p {
 
 .titulo {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   z-index: 1;
+  opacity: 0;
+  animation: fadeInOut 10s ease-in-out forwards;
+
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  
+  70% {
+    opacity: 0;
+  }
+  
 }
 
 .titulo h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .titulo p {
@@ -95,26 +114,31 @@ p {
 
 /* historiaPAGE */
 /* historiaPAGE */
-.historia {
-  margin: 5%;
+.Container {
   overflow-y: auto; /* Ativa o scroll vertical */
   text-align: center; /* Centraliza o texto e a imagem */
 }
 
-.historia h1 {
+.Container h1 {
   color: white;
   padding: 30px;
+  margin: 50px;
+  text-align: center;
+  padding: 30px;
+
+
+
 }
 
-.historia p {
+.Container p {
   letter-spacing: 1px;
-  font-size: 13px;
 }
 
 /* A imagem será centralizada automaticamente devido ao text-align: center na div */
-.historia img {
-  width: 500px;
-  padding: 30px;
+.Container img {
+  width: 400px;
+  padding: 10px;
   margin: 0 auto; /* Centraliza a imagem horizontalmente */
   display: block; /* A imagem se torna um bloco para funcionar com margin: auto */
 }
+

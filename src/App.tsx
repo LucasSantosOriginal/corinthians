@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Historia from "./pages/Historia";
+import Musics from "./pages/Musics";
+import Footer from "./components/Footer"; // Importe o Footer
 import "./App.css";
 import videoBg from "./assets/video.mp4";
 
@@ -15,6 +17,9 @@ function Navbar() {
         </li>
         <li>
           <Link to="/Historia">History</Link>
+        </li>
+        <li>
+          <Link to="/Musics">Musics</Link>
         </li>
       </ul>
     </nav>
@@ -40,7 +45,9 @@ function App() {
           }
         />
         <Route path="/Historia" element={<Historia />} />
+        <Route path="/Musics" element={<Musics />} />
       </Routes>
+      <Footer /> {/* Adicione o Footer aqui */}
     </Router>
   );
 }
