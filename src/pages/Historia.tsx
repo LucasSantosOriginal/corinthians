@@ -27,7 +27,7 @@ const Historia = () => {
         fans.
       </p>
       <img
-        src={`${process.env.PUBLIC_URL}/assets/image1.jpg`}
+        src={`${process.env.PUBLIC_URL}/corinthians/assets/image1.jpg`}
         alt="Corinthians"
       />
     </div>
