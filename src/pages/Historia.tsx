@@ -1,26 +1,32 @@
 const Historia = () => {
   return (
     <div className="historia">
-      <h1>Um Time do Povo Criado para Desafiar a Elite</h1>
+      <h1>A Team of the People, Built to Challenge the Elite</h1>
       <p>
-        O Corinthians foi fundado em 1º de setembro de 1910 por um grupo de
-        cinco operários do Bom Retiro, em São Paulo. Naquela época, o futebol no
-        Brasil ainda era um esporte de elite, jogado principalmente por
-        imigrantes ricos e da classe alta. Esses operários, no entanto, tinham
-        um sonho: criar um time para o povo, para quem não tinha acesso a clubes
-        elitistas. Inspirados no Corinthian Football Club da Inglaterra, eles
-        fundaram o clube com a ideia de ser acessível a todos, principalmente
-        aos trabalhadores. A fundação foi simples, sob a luz de um lampião, mas
-        o propósito era grande: desafiar a elite do futebol paulista e mostrar
-        que o esporte poderia ser de todos. Logo, o Corinthians virou o time do
-        povo. Enquanto outros clubes eram formados pela elite, o Corinthians
-        sempre teve um vínculo forte com a classe trabalhadora, representando
-        aqueles que não se viam representados pelos grandes clubes. Com o tempo,
-        o time cresceu, e com ele a paixão da torcida. O Corinthians virou um
-        símbolo de superação e de luta para chegar ao topo, sempre com a
-        humildade de suas origens.
+        On September 1, 1910, five working-class men from Bom Retiro, a
+        neighborhood in São Paulo, came together with a dream: to create a
+        soccer team for the people. Back then, soccer in Brazil was a sport for
+        the rich, played mostly by European immigrants and the elite. But these
+        workers wanted in. They didn’t just want to watch from the
+        sidelines—they wanted to play, to compete, to be a part of the game.
+        Inspired by the Corinthian Football Club from England, they founded
+        their own club, but with a different mission. This wasn't just about
+        soccer. It was about giving a voice to the working class, about proving
+        that the sport wasn’t just for the wealthy—it was for everyone. Under
+        the light of a single lamp, they made it official: Corinthians was born
+        to challenge the system. And the people embraced it. While other clubs
+        catered to the elite, Corinthians became the team of the streets, the
+        workers, the underdogs. It was more than just a club; it was a movement.
+        Fans saw themselves in the team—fighting against the odds, pushing
+        forward with heart and passion. It wasn’t easy, but Corinthians never
+        backed down. Over time, the club grew, winning games, titles, and, most
+        importantly, the love of its people. Today, Corinthians is one of the
+        biggest and most successful teams in Brazil. But at its core, it remains
+        the same: a team born from the people, for the people—a club that
+        represents the fight, the struggle, and the never-ending passion of its
+        fans.
       </p>
-      <img src="corinthians/src/assets/image1.jpg" alt="" />
+      <img src="/assets/image1.jpg" alt="Corinthians" />
     </div>
   );
 };

@@ -11,10 +11,10 @@ function Navbar() {
     <nav className="navbar">
       <ul>
         <li>
-          <Link to="/">Início</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Historia">Historia</Link>
+          <Link to="/Historia">History</Link>
         </li>
       </ul>
     </nav>
@@ -34,7 +34,7 @@ function App() {
               <video src={videoBg} autoPlay loop muted />
               <div className="titulo">
                 <h1>CORINTHIANS</h1>
-                <p>A história do time do povo</p>
+                <p>The History of the People's Team</p>
               </div>
             </div>
           }
