@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar">
       <ul>
         <li>
-          <Link to="/">Início</Link>
+          <Link to="/App.tsx">Início</Link>
         </li>
         <li>
           <Link to="/Historia">Historia</Link>
