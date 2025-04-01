@@ -20,7 +20,7 @@ const Historia = () => {
         símbolo de superação e de luta para chegar ao topo, sempre com a
         humildade de suas origens.
       </p>
-      <img src="/src/assets/image1.jpg" alt="" />
+      <img src="corinthians/src/assets/image1.jpg" alt="" />
     </div>
   );
 };
