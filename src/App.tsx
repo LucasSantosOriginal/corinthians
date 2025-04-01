@@ -34,7 +34,7 @@ function App() {
               <video src={videoBg} autoPlay loop muted />
               <div className="titulo">
                 <h1>CORINTHIANS</h1>
-                <p>The History of the People's Team</p>
+                <p>The History of the People's Team !</p>
               </div>
             </div>
           }
