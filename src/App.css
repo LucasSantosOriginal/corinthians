@@ -126,7 +126,7 @@ h1 {
 
 .Container h1 {
   color: white;
-  padding: 30px;
+  padding: 8px;
   margin: 50px;
   text-align: center;
 
@@ -159,4 +159,24 @@ h1 {
   height: auto;
   display: block;
   border-radius: 10px; /* opcional: arredonda a borda */
+}
+
+.hall-of-fame {
+  text-align:center
+}
+
+.hall-of-fame img {
+  display: inline-block;
+  width: 400px;
+  align-items: center;
+  margin-bottom: 50px;
+  
+}
+
+.hall-of-fame h1 {
+  text-align: center  ;
+  margin-top: 80px;
+}
+.hall-of-fame p {
+  padding: 50px;
 }

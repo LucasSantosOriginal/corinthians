@@ -41,9 +41,6 @@ const Historia = () => {
           <img src="assets/image16.jpg" alt="Corinthians" />
           <img src="assets/image23.jpg" alt="Corinthians" />
         </div>
-        <div className="Halloffame">
-          <h1>Hall Of Fame</h1>
-        </div>
       </div>
     </div>
   );
