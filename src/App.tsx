@@ -18,9 +18,6 @@ function Navbar() {
         <li>
           <Link to="/Historia">History</Link>
         </li>
-        <li>
-          <Link to="/Musics">Musics</Link>
-        </li>
       </ul>
     </nav>
   );

@@ -7,6 +7,11 @@ html, body {
   overflow: hidden;  /* Desabilitar o scroll no App.css */
 }
 
+.historia-wrapper {
+  height: 100vh;
+  overflow-y: auto; /* Scroll vertical só aqui */
+}
+
 p {
   font-size: 13px;
   color: white;
@@ -124,7 +129,6 @@ h1 {
   padding: 30px;
   margin: 50px;
   text-align: center;
-  padding: 30px;
 
 
 
@@ -138,7 +142,21 @@ h1 {
 .Container img {
   width: 400px;
   padding: 10px;
-  margin: 0 auto; /* Centraliza a imagem horizontalmente */
-  display: block; /* A imagem se torna um bloco para funcionar com margin: auto */
+  margin: 10px ; /* ao colocar "0 auto" Centraliza a imagem horizontalmente */
+  display: flex; /* A imagem se torna um bloco para funcionar com margin: auto */
 }
 
+
+.img-row {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  flex-wrap: wrap;         /* quebra linha se passar da largura */
+  gap: 20px;               /* espaço entre imagens */
+  padding: 20px;
+}
+
+.img-row img {
+  height: auto;
+  display: block;
+  border-radius: 10px; /* opcional: arredonda a borda */
+}
